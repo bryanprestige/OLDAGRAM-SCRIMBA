@@ -19,7 +19,7 @@ export class OldagramPost extends LitElement {
         comment: { type: String },
         likes: { type: Number }
     }
-
+    
     constructor() {
         super();
     }
