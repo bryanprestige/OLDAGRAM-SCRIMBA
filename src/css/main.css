@@ -5,7 +5,6 @@ body {
     text-align: center;
     font-family:'Courier New', Courier, monospace;
     background-color:#C6C6C6;
-    margin: auto;
 }
 
 header {
@@ -13,6 +12,7 @@ header {
     justify-content:space-evenly;
     width: 375px;
     height: 67px;
+    margin: auto;
     border-bottom: 1px solid #E5E5E5;
     background-color: white;
 }
@@ -30,6 +30,14 @@ header {
     border-radius: 50px;
     margin: auto;
     margin-right: 30px;
+}
+
+#feed-container {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 100%;
+    margin: auto;
 }
 
 #post {
